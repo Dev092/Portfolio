@@ -1,0 +1,107 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr;
+}
+.items
+{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 40px;
+    text-shadow: 2PX 2PX rgb(255, 0, 0);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 3px;
+    
+}
+.mainbody
+{
+    
+    padding-top: 20px;
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: 700px;
+    
+}
+.img
+{
+    height: 250px;
+    border-radius: 50%;
+}
+.pimg
+{
+    height: 200px;
+    border-radius: 40%;
+    border: 0.2px rgb(45, 19, 19) solid;
+}
+.itemsofmain
+{
+    
+   color: white;
+    background-color: rgb(0, 0, 0);
+    border: 3px rgb(255, 255, 255) solid;
+    border-radius: 3px;
+}
+.heading
+{
+    font-size: 50px;
+
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 255, 115);
+}
+.about
+{
+    display: grid;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   
+    
+}
+.abouthead
+{
+    padding-left: 300px;
+    padding-right: 500px;
+}
+.project
+{
+   font-size: 20px;
+    display: grid;
+    grid-gap: 5px;
+    border: 3px red solid;
+    grid-auto-rows: 170px;
+    grid-template-columns: 1fr 1fr;
+}
+.btn
+{
+    background-color: aqua;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+* {box-sizing: border-box}
+
+.ontainer {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 50%; background-color: #808080;}
+a:hover
+{
+  
+    background-color: red;
+    
+}
